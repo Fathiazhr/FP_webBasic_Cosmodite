@@ -1,0 +1,170 @@
+/*start login*/
+
+
+/*LOGIN*/
+.login{
+	position: fixed;
+	visibility: hidden;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-60%);
+	width: 500px;
+	padding: 30px;
+	border-radius: 10px;
+	z-index: 1;
+	background: url(../img/bg3.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.login.active{
+	visibility: visible;
+}
+
+.login #btnModal{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.login #btnModal .fas{
+	color: #000;
+	font-size: 30px;
+}
+
+.login form{
+	z-index: 1;
+}
+
+.login h2{
+	font-size: 30px;
+	color: #fff;
+}
+
+.login .inputBox{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.login .inputBox input{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 3px solid #5fa8d3;
+	outline: none;
+	background: transparent;
+}
+
+
+.login .inputBox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	color: #2F4F4F;
+	transition: .5s;
+}
+
+.login .inputBox input:focus ~span,
+.login .inputBox input:valid ~span{
+	color: #000;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+
+.login .inputBox .btn{
+	width: 100%;
+	margin: 5px 0;
+}
+
+.login .inputBox .btn a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+/*finish login
+
+/*START REGISTER*/
+section.register{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	margin-top:140px;
+	background: #f2fbff;
+}
+
+.inputform{
+	width: 700px;
+	padding: 30px;
+	border-radius: 10px;
+	z-index: 1;
+	background: url(../img/bg3.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+.inputform form{
+	z-index: 1;
+}
+
+.inputform h2{
+	font-size: 30px;
+	color: #fff;
+}
+
+.inputform .inputBox{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.inputform .inputBox input{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 3px solid #5fa8d3;
+	outline: none;
+	background: transparent;
+}
+
+.inputform .inputBox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	color: #2F4F4F;
+	transition: .5s;
+}
+
+.inputform .inputBox input:focus ~span,
+.inputform .inputBox input:valid ~span{
+	color: #000;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+
+.inputform .inputBox .btn{
+	width: 100%;
+	margin: 5px 0;
+}
+
+.inputform .inputBox .btn a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+	font-size: 18px;
+}
